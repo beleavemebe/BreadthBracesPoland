@@ -1,14 +1,19 @@
 package tasks.first;
 
 public class FirstTaskSolution implements FirstTask {
+
+    public static void main(String[] args) {
+
+    }
+
     @Override
     public String breadthFirst(boolean[][] adjacencyMatrix, int startIndex) {
-        return null;
+        return BreadthSearch.doSearch(adjacencyMatrix, startIndex);
     }
 
     @Override
     public Boolean validateBrackets(String s) {
-        return null;
+        return Braces.bracketsAreCorrectlyPlaced(s);
     }
 
     @Override
@@ -16,3 +21,4 @@ public class FirstTaskSolution implements FirstTask {
         return null;
     }
 }
+
