@@ -18,7 +18,7 @@ public class FirstTaskSolution implements FirstTask {
 
     @Override
     public Long polishCalculation(String s) {
-        return null;
+        return PolskaNotacia.solve(s);
     }
 }
 
